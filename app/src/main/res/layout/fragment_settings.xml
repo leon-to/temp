@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationsFragment">
+
+
+    <TextView
+        android:id="@+id/info_title"
+        android:layout_width="412dp"
+        android:layout_height="73dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="53dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Self Care Settings"
+        android:textAppearance="@android:style/TextAppearance.SearchResult.Title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
